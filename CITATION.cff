@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+title: "Temperature compensation in biochemical clocks: reproducibility package"
+message: "If you use this repository, please cite the accompanying manuscript and archived release."
+type: software
+authors:
+  - family-names: Romero
+    given-names: Ricardo
+    email: rromero@cua.uam.mx
+version: 1.1.0
+date-released: "2026-07-04"
+license: MIT
+repository-code: "https://github.com/REPLACE-WITH-REPO/tempcomp"
+abstract: "Python reproducibility package for analytical identities, numerical figures, and cached optimization audit in a phase-type theory of temperature compensation in biochemical clocks."

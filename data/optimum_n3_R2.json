@@ -1,0 +1,78 @@
+{
+  "description": "Audited numerical candidate for the order-3 Arrhenius phase-type constrained search used in Figure 5. This is an audited upper-bound candidate, not a proof of global optimality.",
+  "n": 3,
+  "R_target": 2.0,
+  "T0": 1.0,
+  "Emax": 12.0,
+  "state_entry": 0,
+  "transient_edge_order": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      2,
+      1
+    ]
+  ],
+  "exit_state_order": [
+    0,
+    1,
+    2
+  ],
+  "rates_at_T0": [
+    4.5399929762484854e-05,
+    84.8077916474651,
+    4.5399929762484854e-05,
+    111.30946371589407,
+    4.5399929762484854e-05,
+    148.4131591025766,
+    4.5399929762484854e-05,
+    148.4131591025766,
+    4.5399929762484854e-05
+  ],
+  "activation_energies": [
+    0.0,
+    0.0,
+    12.0,
+    12.0,
+    12.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "expected": {
+    "CV2": 0.42592661987083447,
+    "R_analytic": 2.0000000000298943,
+    "condition_number": 7.815612407005863,
+    "central_difference_R": {
+      "0.01": 2.0026001233752724,
+      "0.003": 2.0002340016302655,
+      "0.001": 2.0000260001150885
+    },
+    "sandwich_lower_1_over_n": 0.3333333333333333,
+    "sandwich_upper_1_over_n_minus_1": 0.5
+  },
+  "notes": [
+    "Rates are stored as values at T0. At temperature T, k(T)=k(T0)*exp(E*(1/T0 - 1/T)).",
+    "The candidate lies inside the Aldous-Shepp sandwich for n=3 and satisfies R\u22482 under analytic and finite-difference audits.",
+    "It is used to reproduce the Figure 5 star; the theorem does not rely on this candidate."
+  ]
+}
