@@ -55,7 +55,6 @@ src/tempcomp/
 scripts/            one script per figure + optimum verification/search
 src/                importable Python package
 figures/            generated figures
-paper/              LaTeX source and compiled PDF
 data/               cached audited Fig. 5 numerical candidate
 tests/              pytest suite
 ```
