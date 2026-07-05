@@ -1,3 +1,6 @@
+[![DOI](https://zenodo.org/badge/1289677055.svg)](https://doi.org/10.5281/zenodo.21200894)
+
+
 # tempcomp
 
 Reproducibility package for:
